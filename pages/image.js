@@ -1,4 +1,4 @@
-import styles from "../styles/styles.module.css";
+import styles from "../styles/Image.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import ViewSource from "../components/view-source";

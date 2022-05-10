@@ -1,6 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import { Link } from "next";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -17,19 +17,25 @@ export default function Home() {
         </h1>
 
         <div className={styles.grid}>
-          <Link href="/ssr" className={styles.card}>
-            <h2>Server-Side Rendering &rarr;</h2>
-            <p>Use SSR to inject data to a page at render time.</p>
+          <Link href="/ssr">
+            <a className={styles.card}>
+              <h2>Server-Side Rendering &rarr;</h2>
+              <p>Use SSR to inject data to a page at render time.</p>
+            </a>
           </Link>
 
-          <Link href="/api-route" className={styles.card}>
-            <h2>API Routes &rarr;</h2>
-            <p>Create an API route to call from the app.</p>
+          <Link href="/api-route">
+            <a className={styles.card}>
+              <h2>API Routes &rarr;</h2>
+              <p>Create an API route to call from the app.</p>
+            </a>
           </Link>
 
-          <Link href="/image" className={styles.card}>
-            <h2>Image component &rarr;</h2>
-            <p>Use Next.js Image component support for responsive images.</p>
+          <Link href="/image">
+            <a className={styles.card}>
+              <h2>Image component &rarr;</h2>
+              <p>Use Next.js Image component support for responsive images.</p>
+            </a>
           </Link>
 
           <a
