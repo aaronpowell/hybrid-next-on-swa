@@ -14,4 +14,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 This sample has a default route that implements the [GraphQL API route sample](https://github.com/vercel/next.js/tree/canary/examples/api-routes-graphql) and [server-side rendering](https://nextjs.org/docs/basic-features/pages#server-side-rendering) and [image optimizations](), demonstrating these features on [Azure Static Web Apps](https://docs.microsoft.com/azure/static-web-apps/).
 
-You can learn more about hybrid app support on Azure [on the announcement blog post]().
+You can learn more about hybrid app support on Azure [on the announcement blog post](https://techcommunity.microsoft.com/t5/apps-on-azure-blog/extending-next-js-support-in-azure-static-web-apps/ba-p/3627975).
