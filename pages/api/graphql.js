@@ -12,7 +12,7 @@ const typeDefs = gql`
 const resolvers = {
   Query: {
     users(parent, args, context) {
-      return [{ name: "Nextjs" }, { name: "Azure" }];
+      return [{ name: "Nextjs" }, { name: "Azure" }, { name: "Chan4lk" }];
     },
   },
 };
